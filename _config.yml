@@ -53,10 +53,8 @@ linkedin_username: 鄭宇傑 (YJack)
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   I am Yu-Jie you can call me YJ. I am Bachelor of National Cheng-Chi University, Taiwan. I have exposed to a wide range of developer skilled such as C++, Machine learning, Full Stack Development, Javascript and its frameworks. 
-
-  🌱 Currently active in organization [CeranaPOS](https://github.com/CeranaPOS) and [Lary-Tech](https://github.com/Lary-Tech)
-
-   🔭 What do I do and What have I done?
+  
+  🔭 What do I do and What have I done?
   * I’m currently working on combining opencv and arduino to make an game-assistant in [Lary Technology](https://github.com/Lary-Tech). 
   * I’m currently working on [CeranaPOS](https://github.com/CeranaPOS) which is a simple, convenient and fast online POS service. And all backend are  using Firebase services such as Hosting, Cloud Function, Firestore, Firebase Authentication. 
   * I’m currently trying to do fencing-action-recognition by using [mediapipe](https://github.com/google/mediapipe) and [yolo](https://github.com/ultralytics/yolov5). And you can find my research proposal [here](https://github.com/YJack0000/fencing_pose_detection/blob/main/Research%20Proposal.md).
@@ -64,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
   📫 I'm mainly use [Vue](https://github.com/vuejs/vue) + [Vite](https://github.com/vitejs/vite) + [Pinia](https://github.com/vuejs/pinia) + [Element-plus](https://github.com/element-plus/element-plus) to craete backstage management system. 
 
   💬 One line that describes me best?
-  I would describe myself as innovative, adaptable to change, a fast learner, and someone who is prepared to go above and beyond what is required to ensure my skills always stays one step ahead of my peers.😉😉
+  * I would describe myself as innovative, adaptable to change, a fast learner, and someone who is prepared to go above and beyond what is required to ensure my skills always stays one step ahead of my peers.😉😉
   
 content:
   - title: Projects
