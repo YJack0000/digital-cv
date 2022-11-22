@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Yu-Jie, Zheng
+title: CS Student, Full Stack Engineer
+email: jackleagends@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +886 978735622
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: yjack0000.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#twitter_username: ./
+github_username:  YJack0000
+#stackoverflow_username: "yjack0000"
+#dribbble_username: yjack0000
+facebook_username: YJack0000
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: 鄭宇傑 (YJack) 
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,66 +50,113 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I am Yu-Jie you can call me YJ. I am Bachelor of National Cheng-Chi University, Taiwan. I have exposed to a wide range of developer skilled such as C++, Machine learning, Full Stack Development, Javascript and its frameworks. 
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  🌱 Currently active in organization [CeranaPOS](https://github.com/CeranaPOS) and [Lary-Tech](https://github.com/Lary-Tech)
 
+   🔭 What do I do and What have I done?
+  * I’m currently working on combining opencv and arduino to make an game-assistant in [Lary Technology](https://github.com/Lary-Tech). 
+  * I’m currently working on [CeranaPOS](https://github.com/CeranaPOS) which is a simple, convenient and fast online POS service. And all backend are  using Firebase services such as Hosting, Cloud Function, Firestore, Firebase Authentication. 
+  * I’m currently trying to do fencing-action-recognition by using [mediapipe](https://github.com/google/mediapipe) and [yolo](https://github.com/ultralytics/yolov5). And you can find my research proposal [here](https://github.com/YJack0000/fencing_pose_detection/blob/main/Research%20Proposal.md).
+
+  📫 I'm mainly use [Vue](https://github.com/vuejs/vue) + [Vite](https://github.com/vitejs/vite) + [Pinia](https://github.com/vuejs/pinia) + [Element-plus](https://github.com/element-plus/element-plus) to craete backstage management system. 
+
+  💬 One line that describes me best?
+  I would describe myself as innovative, adaptable to change, a fast learner, and someone who is prepared to go above and beyond what is required to ensure my skills always stays one step ahead of my peers.😉😉
+  
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Hardware-based game assistant
+        link: https://shopee.tw/mooonphase?categoryId=100634&entryPoint=ShopByPDP&itemId=17420247260&upstream=search
+        link_text: market on shopee
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Cerana
+            icon: fas fa-home
+            url: https://lineagew-cv.web.app/sign-in
         quote: >
-          Short overview of the project (optional)
+          To help loyal players easily spawn monsters and install software scripts that do not violate official regulations, this hardware-oriented game assistant is designed. There are currently more than 100 users.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Co-designed and sold products with the seniors of the school team. 
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: CeranaPOS
+        link: https://ceranapos.web.app/
+        link_text: webpage under development
+        additional_links:
+          - title:  Cerana
+            icon: fab fa-github
+            url: https://github.com/CeranaPOS
+        quote: >
+          The continuation of the DBMS course project will be launched at the Christmas market.
+          CeranaPOS is a simple, convenient and fast online POS service. Do you set up a stall in a small market or do some short-term transactions, but find that the invoicing system on the market is expensive and unnecessary? Purchase, sales, profit management, employee management, all you need is a laptop or tablet to easily meet your needs!
+        description: | # this will include new lines to allow paragraphs
+          Trying to introduce full Firebase for backend and Github action for CI in this project. 
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Fencing scoring machine
+        link: https://docs.google.com/presentation/d/1Hf-E8gC1xCY9yOvOedSuTTo_0vpAPJ7h4CE3p-vytfw/edit?usp=sharing
+        link_text: slide
+        quote: >
+          It is not necessary to get an expensive electronic scoring device from the school club every time I practice.
+        description: | # this will include new lines to allow paragraphs
+          Together with my GDSC friend, use Arduino and 3D printing to design a very low-cost electronic review device. 
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        title: 賴瑞科技
+        sub_title: Project Development Manager
+        caption: Dec 2021 - Present
+        #link: Link to company (optional)
+        #quote: >
+        #  Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          The hardware game assistant develops and determines the technology used by the team.     
+          **Skills: C++ · Arduino · Cloud Functions · Vue.js · CI/CD · ld3322**
+      - layout: right
+        title: 東泰
+        sub_title: Project Intern
+        caption: Sep 2021 - Aug 2022 
+        #link: Link to company (optional)
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Making web application for companies to manage IOT sensors and gateways. 
+      - layout: right
+        title: OHGA SMARTTHINGS CO., LTD
+        sub_title: Intern
+        caption: Jul 2021 - Sep 2021
+        #link: Link to company (optional)
+        #quote: >
+        #  Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Make website using Vue.js and Express.js for IOT monitoring. 
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+        title: National Chengchi University
+        sub_title: BA Computer Science
+        caption: 2018-2022
+        #quote: >
+        #  Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      * I'm currently a active fencer who will participate most of the National Ranking Tournament.
+      * I have the same painting as my avatar on my fencing mask. <img src="images/Mask.png" height="70" />
+      * My favorite keyboard brand is Leopold and I'm currently using FC660M as my main production tools. 
 
 # Footer
 footer_show_references: true
